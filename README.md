@@ -1,16 +1,38 @@
-# localization_poc
+# Localization POC
 
-A new Flutter project.
+This is a proof of concept project for Flutter app localization.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Support for multiple languages (en, es, ko, pt, hi)
+- Simple user interface with a counter
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart SDK
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Setup
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/your-username/localization_poc.git
+    cd localization_poc
+    ```
+
+2. Install dependencies:
+
+    ```sh
+    flutter pub get
+    ```
+
+## Generate Localization Files
+
+To generate the localization files, run the following command:
+
+```sh
+dart run build_runner build
+```
+
+We can have a file with all the texts for each language or do it by screen (which reduces the size of the file and makes it more organized).

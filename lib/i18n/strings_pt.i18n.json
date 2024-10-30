@@ -1,0 +1,20 @@
+{
+  "Home.Page.Title": "Página Inicial",
+  "Home.Page.Description": "Você já pressionou o botão:",
+  "Home.Page.Navigation.Button.Counter.Page": "Ir para a Página do Contador",
+  "Home.Page.Navigation.Button.Another.Page": "Ir para Outra Página",
+  "Counter.Page.Title": "Página do Contador do Flutter Demo",
+  "Counter.Page.Description": "Você já pressionou o botão:",
+  "Counter.Page.Times": {
+    "one": "1 vez",
+    "other": "{{count}} vezes"
+  },
+  "Counter.Page.Increment": "Incrementar",
+  "Counter.Page.Today": "Hoje é {{date: yMd}}",
+  "Another.Page.Description": "Outra Página",
+  "locales": {
+    "en": "Inglês",
+    "pt": "Português",
+    "ko": "Coreano"
+  }
+}

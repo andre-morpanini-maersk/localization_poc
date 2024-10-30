@@ -1,0 +1,20 @@
+{
+  "Home.Page.Title": "홈 페이지",
+  "Home.Page.Description": "버튼을 이미 눌렀습니다:",
+  "Home.Page.Navigation.Button.Counter.Page": "카운터 페이지로 가기",
+  "Home.Page.Navigation.Button.Another.Page": "다른 페이지로 가기",
+  "Counter.Page.Title": "플러터 데모 카운터 페이지",
+  "Counter.Page.Description": "버튼을 이미 눌렀습니다:",
+  "Counter.Page.Times": {
+    "one": "1회",
+    "other": "{{count}}회"
+  },
+  "Counter.Page.Increment": "증가",
+  "Counter.Page.Today": "오늘은 {{date: yMd}}입니다",
+  "Another.Page.Description": "다른 페이지",
+  "locales": {
+    "en": "영어",
+    "pt": "포르투갈어",
+    "ko": "한국어"
+  }
+}

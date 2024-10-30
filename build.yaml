@@ -1,0 +1,20 @@
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          base_locale: en
+          input_directory: lib/i18n
+          input_file_pattern: .json
+          output_directory: lib/i18n/generated
+          output_file_name: translations.g.dart
+          output_format: single_file
+          translate_var: texts # this is the variable name that will be used to access the translations
+          string_interpolation: double_braces
+          key_case: camel
+          key_map_case: pascal
+          param_case: snake
+          namespace: true
+          
+
+

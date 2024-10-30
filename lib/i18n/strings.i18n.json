@@ -1,0 +1,20 @@
+{
+  "Home.Page.Title": "Home Page",
+  "Home.Page.Description": "You've already pressed the button:",
+  "Home.Page.Navigation.Button.Counter.Page": "Go to Counter Page",
+  "Home.Page.Navigation.Button.Another.Page": "Go to Another Page",
+  "Counter.Page.Title": "Flutter Demo Counter Page",
+  "Counter.Page.Description": "You've already pressed the button:",
+  "Counter.Page.Times": {
+    "one": "1 time",
+    "other": "{{count}} times"
+  },
+  "Counter.Page.Increment": "Increment",
+  "Counter.Page.Today": "Today is {{date: yMd}}",
+  "Another.Page.Description": "Another Page",
+  "locales": {
+    "en": "English",
+    "pt": "Portuguese",
+    "ko": "Korean"
+  }
+}
